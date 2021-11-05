@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cronometro</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        /* base styles */
+    </style>
+
+</head>
+
+<body>
+    <div class="ball"></div>
+
+    <div id="container">
+        <span id="minute">00</span>:
+        <span id="second">00</span>:
+        <span id="millisecond">00</span>
+    </div>
+
+    <div id="buttons">
+        <div class='flat-button' onclick="start()" id="start">
+            START
+        </div>
+
+        <div class='flat-button' onclick="pause()" id="start">
+            PAUSE
+        </div>
+
+        <div class='flat-button' onclick="reset()" id="start">
+            RESET
+        </div>
+
+    </div>
+
+    <script src="cron.js"></script>
+
+</body>
+
+</html>
