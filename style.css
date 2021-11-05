@@ -17,8 +17,8 @@ body {
 #container {
     background-color: #004953;
     color: white;
-    width: 960px;
-    height: 300px;
+    width: 80%;
+    height: 30%;
     border-radius: 20px;
     justify-content: center;
     display: flex;
