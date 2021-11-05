@@ -44,4 +44,4 @@ Você pode usar os botões `<START, PAUSE e RESET>` ou:
 https://youtu.be/Dj9syUefv3o
 
 
-[⬆ Voltar ao topo](cronometro)<br>
+[⬆ Voltar ao topo](##cronometro)<br>
